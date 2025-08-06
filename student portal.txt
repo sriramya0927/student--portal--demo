@@ -1,0 +1,5 @@
+name"sri ramya"
+course"bsc.ai"
+section"A"
+college"aditya degree college"
+
