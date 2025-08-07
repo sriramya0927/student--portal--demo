@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Online Food Menu</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Welcome to Tasty Bites</h1>
+    <p>Your online food menu</p>
+  </header>
+
+  <div class="buttons">
+    <button onclick="toggleSection('breakfast')">Toggle Breakfast</button>
+    <button onclick="toggleSection('lunch')">Toggle Lunch</button>
+    <button onclick="toggleSection('dinner')">Toggle Dinner</button>
+  </div>
+
+  <section class="menu">
+    <div id="breakfast">
+      <h2>Breakfast</h2>
+      <div class="item">
+        <h3>Idli & Sambar</h3>
+        <p>Soft rice cakes served with hot sambar and chutney</p>
+      </div>
+      <div class="item">
+        <h3>Masala Dosa</h3>
+        <p>Golden dosa filled with spicy mashed potatoes</p>
+      </div>
+    </div>
+
+    <div id="lunch">
+      <h2>Lunch</h2>
+      <div class="item">
+        <h3>Veg Thali</h3>
+        <p>Includes rice, roti, curry, dal, and sweet</p>
+      </div>
+      <div class="item">
+        <h3>Biryani</h3>
+        <p>Spiced rice with vegetables or chicken</p>
+      </div>
+    </div>
+
+    <div id="dinner">
+      <h2>Dinner</h2>
+      <div class="item">
+        <h3>Paneer Butter Masala & Naan</h3>
+        <p>Soft naan with creamy paneer curry</p>
+      </div>
+      <div class="item">
+        <h3>Fried Rice</h3>
+        <p>Stir-fried rice with vegetables or eggs</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Tasty Bites. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
